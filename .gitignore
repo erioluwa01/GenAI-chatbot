@@ -1,0 +1,62 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment & virtualenv folders
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+*.env
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Pytest / coverage / logs
+htmlcov/
+.coverage
+.tox/
+.noseids
+.pytest_cache/
+*.log
+
+# dotenv files (secret keys, credentials, API keys, etc.)
+.env
+.env.*
+
+# mypy, pylance, pyright
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+Thumbs.db
+
+# Language models or data artifacts
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.joblib
+
+# Secrets or configs you don't want public
+config.yaml
+secrets.json
+openai_key.txt
